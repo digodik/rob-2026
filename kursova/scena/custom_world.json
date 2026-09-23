@@ -1,0 +1,37 @@
+{
+    "note": "Сцена відтворює параметри з GearsBot World Builder вручну — автоматичний експорт через File > Save world to file відкриває системне вікно збереження, яке не відкрилося коректно — перед захистом перезбережти через World Builder",
+    "ground": {
+          "groundType": "Box",
+          "imageScale": 3,
+          "uScale": 1,
+          "vScale": 1,
+          "groundFriction": 1,
+          "groundRestitution": 0
+    },
+    "objects": [
+          {
+                  "type": "box",
+                  "physicsOptions": "Fixed",
+                  "position": [80, 60, 20],
+                  "rotation": [0, 0, 0],
+                  "size": [20, 20, 20],
+                  "color": "#80e680ff"
+          },
+          {
+                  "type": "box",
+                  "physicsOptions": "Fixed",
+                  "position": [-70, -40, 20],
+                  "rotation": [0, 0, 0],
+                  "size": [20, 20, 20],
+                  "color": "#80e680ff"
+          },
+          {
+                  "type": "box",
+                  "physicsOptions": "Fixed",
+                  "position": [20, -90, 20],
+                  "rotation": [0, 0, 0],
+                  "size": [20, 20, 20],
+                  "color": "#80e680ff"
+          }
+    ]
+}
